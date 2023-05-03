@@ -1,18 +1,22 @@
-https://codelabs.developers.google.com/codelabs/flutter-flame-game
+# Doodle Dash
+Learn how to build a platformer game with Flutter and Flame! In the Doodle Dash game, inspired by Doodle Jump, you play as either Dash (the Flutter mascot), or her best friend Sparky (the Firebase mascot), and try to reach as high as possible by jumping on platforms.
 
-# doodle_dash
+## What you'll learn
+* How to build a cross-platform game in Flutter.
+* How to create reusable game components that can render and update as part of the Flame game loop.
+* How to control and animate your character's (called a sprite) movements through game physics.
+* How to add and manage collision detection.
+* How to add keyboard and touch input as controls for the game.
 
-A new Flutter project.
+## Prerequisites
+This codelab assumes that you have some Flutter experience. If not, you can learn the basics with the Your First Flutter App codelab.
 
-## Getting Started
+## What you'll build
+This codelab guides you through building a game called Doodle Dash: a platformer game featuring Dash, the Flutter mascot or Sparky, the Firebase mascot (the rest of this codelab references Dash, but the steps also apply to Sparky). Your game will have the following features:
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* A sprite that can move horizontally and vertically
+* Randomly generated platforms
+* A gravity effect that pulls down your sprite
+* Game menus
+* In-game controls like pause and replay
+* The ability to keep score
